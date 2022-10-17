@@ -117,4 +117,4 @@ namespace QuickShort
         }
     }
 }
-//Move the pivot to its correct position in the list 
+//sort the list on the left of pivot using quick sort 
