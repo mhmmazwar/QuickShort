@@ -116,4 +116,5 @@ namespace QuickShort
             Console.Read();
         }
     }
-} 
+}
+ //j now contains the index of the last element in the sorted list
