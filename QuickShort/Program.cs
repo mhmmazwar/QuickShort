@@ -74,7 +74,7 @@ namespace QuickShort
             }
             cmp_count++;
 
-            //searc for an element less than or equal to pivot
+            //searc for an element less than or equal to pivot 
             while ((arr[j] > pivot) && (j >= low)) 
             {
                 j--;
