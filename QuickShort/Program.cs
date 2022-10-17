@@ -55,7 +55,7 @@ namespace QuickShort
             if (low < high)
                 return;
 
-            //partition the list into two parts:
+            //partition the list into two parts: 
             //one containing elements less that or equal to pivot
             //Outhor counntaining elements greather than pivot
 
