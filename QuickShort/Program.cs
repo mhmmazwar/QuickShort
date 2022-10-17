@@ -66,7 +66,7 @@ namespace QuickShort
 
             while (i <= j)
             {
-                //search for an element greater than pivot
+                //search for an element greater than pivot 
                 while ((arr[i] <= pivot) && (i <= high)) ;
 
                 i++;
