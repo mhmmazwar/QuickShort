@@ -117,4 +117,4 @@ namespace QuickShort
         }
     }
 }
- //j now contains the index of the last element in the sorted list
+//Move the pivot to its correct position in the list 
