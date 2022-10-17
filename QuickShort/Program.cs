@@ -75,16 +75,25 @@ namespace QuickShort
             cmp_count++;
 
             //searc for an element less than or equal to pivot 
-            while ((arr[j] > pivot) && (j >= low)) 
+            while ((arr[j] > pivot) && (j >= low))
             {
                 j--;
                 cmp_count++;
-
             }
-           
-            
+            cmp_count++;
+            if (i < j) //if the element is on the left of the element
+            {
+                //swap the element at index i whit the element at index j
+                swap(i, j);
+                mov_count++;
+            }
+        }
 
-            } 
+    }
+
+
+
+} 
         }
         static void Main(string[] args)
         {
